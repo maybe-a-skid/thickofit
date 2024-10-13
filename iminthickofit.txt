@@ -1,0 +1,31 @@
+function thickofit()
+    local args = {
+    [1] = "from the screen to the ring to the pen to the king",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+wait(1)
+
+    local args = {
+    [1] = "wheres my crown thats my bling",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+wait (1)
+
+    local args = {
+    [1] = "always drama when i reign",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+end
+
+while true do
+    thickofit()
+    wait(10)
+end
